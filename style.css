@@ -44,6 +44,8 @@ body{
 .formwrapper{
     width: 45%;
     margin: auto;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .formtitle{
@@ -127,10 +129,11 @@ form > p > a {
 }
 .btngroup{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 45%;
     gap: 2rem;
-    margin-block: 1.5rem;
-    justify-content: space-between;
+    /* margin-block: 1.5rem; */
+    justify-content: space-between;align-items: center;
 }
 
 .btngroup > button {
@@ -147,4 +150,9 @@ form > p > a {
     background-color:#2D3748
 }
 
-
+.dt{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
