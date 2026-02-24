@@ -11,8 +11,12 @@
     <div id="container">
         <div class="formImg">
             <h1>Social media shared today,tomorrow or by location</h1>
-            <img src="./images/Imgs.png" alt="phone">
-            <img src="images/Slider dots.png" alt="dots" width="5px" height="30px">
+
+            <!-- <div class="imageCir"> -->
+            <img  class="phoneImg" src="./images/Imgs.png" alt="phone">
+
+            <!-- </div> -->
+            <img class="dotImg" src="images/Slider dots.png" alt="dots">
         </div>
 
         <!-- login form -->
@@ -46,11 +50,11 @@
                     <div class="inputcard">
                         <label>Date of birth(MM/DD/YY) </label>
 
-                        <div>
-                             <input type="datetime">
+                        <div class="dob">
+                             <input class="inputDob" type="datetime">
                              <i class="fa fa-calendar" aria-hidden="true"></i>
                         </div>
-                    </div>>
+                    </div>
                 </div>
 
                 <div class="forminputwrapper">
@@ -60,7 +64,7 @@
                     </div>
                     
                     <div class="inputcard">
-                        Confirm password</label>
+                       <label>Confirm password</label>
                     <input type="password">
                     </div>
                 </div>
@@ -71,24 +75,24 @@
                     <a href="#">Forget password</a>
                 </div>
 
-                <p>
+                <p class="box2">
                     <input type="checkbox">i agree to all the <a href="#">Terms</a> and <a href="#"> Private Policy</a> 
                 </p>
 
-                <div id="btngroup">
+                <div class="btngroup">
                     <button>Create account</button>
                     <button>
-                        <img src="images/goggle-cazlog.png" alt="goggle" width="20" height="15">
+                        <img src="images/goggle-cazlog.png" alt="goggle" width="20" height="20">
                         sign-in with goggle
                     </button>
                 </div>
 
-                <p style="text-align: center;">Don't have an account <a href="#">Log in</a></p>
+                <p class="lPara" style="text-align: center;">Don't have an account <a href="#">Log in</a></p>
 
                 <div class="btngroup1">
-                    <button><img src="" alt="goggle play"></button>
+                    <img src="./images/Google Play Badge.png" alt="goggle play">
 
-                    <button><img src="" alt="playstore"></button>
+                    <img src="./images/app store.png" alt="playstore">
                 </div>
             </form>
             </div>
